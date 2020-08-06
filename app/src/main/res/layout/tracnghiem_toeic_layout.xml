@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="detai.android.thitoec.TracNghiemToeic"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/bg"
+    android:backgroundTintMode="screen"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="THI TRẮC NGHIỆM"
+            android:id="@+id/textView6"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập tên thí sinh để bắt đầu phần thi"
+            android:id="@+id/textView5"
+            android:textColor="#3059fc"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/teTenThiSinh"
+            android:enabled="true"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStart"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:background="#7c8dc7"
+            android:text="BẮT ĐẦU"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:text="THOÁT"
+            android:id="@+id/btnExit"
+            android:background="#7c8dc7"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:text="HƯỚNG DẪN"
+            android:id="@+id/btnRule"
+            android:background="#7c8dc7"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:text="ĐIỂM THI"
+            android:id="@+id/btnCore"
+            android:background="#7c8dc7"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

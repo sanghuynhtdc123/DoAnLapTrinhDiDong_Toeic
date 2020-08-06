@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thi trắc nghiệm</string>
+    <string name="app_rule">
+        Hello
+        Chao mung bạn đến với game
+    </string>
+    <string name="strDelete">Xóa</string>
+</resources>

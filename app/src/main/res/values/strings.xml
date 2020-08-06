@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thi trắc nghiệm</string>
+    <string name="app_rule">
+       Mô phỏng Thi toeic
+        1 câu hỏi gồm 4 đáp án
+        Thí sinh suy nghĩ và chọn đáp án thích hợp
+    </string>
+    <string name="strDelete">Xóa dòng</string>
+    <string name="title_stop">Dừng cuộc chơi</string>
+    <string name="ok">Đồng ý</string>
+    <string name="bgButton">#</string>
+    <string name="toeic_title">Thi Toeic</string>
+    <string name="thread_number_one">Đề số 1</string>
+    <string name="thread_number_two">Đề số 2</string>
+    <string name="thread_number_three">Đề số 3</string>
+    <string name="thread_number_four">Đề số 4</string>
+    <string name="thread_number_five">Đề số 5</string>
+    <string name="thread_number_six">Đề số 6</string>
+    <string name="result_toeic">Kết quả</string>
+    <string name="toeic_textview_one">Đề số 1</string>
+    <string name="toeic_textview_four">Đề số 4</string>
+    <string name="toeic_textview_two">Thời gian : 45 phút</string>
+    <string name="toeic_textview6_one">Đề số 6</string>
+    <string name="toeic_textview6_two">Thời gian : 45 phút</string>
+    <string name="btn_Submit">Nộp bài</string>
+    <string name="btn6_Submit">Nộp bài</string>
+    <string name="btn4_Submit">Nộp bài</string>
+</resources>
