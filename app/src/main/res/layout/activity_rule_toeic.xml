@@ -23,11 +23,11 @@
         android:textSize="20dp" />
 
     <TextView
+        android:id="@+id/tvContent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/tvContent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#ffffff"
         android:textSize="16dp" />
 
